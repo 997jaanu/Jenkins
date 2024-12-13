@@ -6,7 +6,7 @@ resource "google_storage_bucket" "storage-bucket" {
   public_access_prevention = "enforced"
 }
 #
-resource "google_storage_bucket" "storage-bucket" {
+resource "google_storage_bucket" "storage-bucket1" {
   name                     = "s-bucket-002"
   project                  = "windy-album-444116-g9"
   location                 = "US"
