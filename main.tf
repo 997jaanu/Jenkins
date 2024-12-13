@@ -1,17 +1,8 @@
-resource "google_storage_bucket" "my-bucket" {
-  name                     = "tt-githubdemo-bucket-001"
+resource "google_storage_bucket" "storage-bucket" {
+  name                     = "s-bucket-001"
   project                  = "windy-album-444116-g9"
   location                 = "US"
   force_destroy            = true
   public_access_prevention = "enforced"
 }
 #
-resource "google_storage_bucket" "my-bucket2" {
-  name                     = "tt-githubdemo-bucket-002"
-  project                  = "windy-album-444116-g9"
-  location                 = "US"
-  force_destroy            = true
-  public_access_prevention = "enforced"
-}
-#
-### dummy
